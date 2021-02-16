@@ -1,1 +1,68 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: darkgreen;
+}
+
+.carta {
+  border-radius: 30px;
+  width: 350px;
+  height: 600px;
+  background-color: white;
+}
+
+.carta::before {
+  position: absolute;
+  top: 50px;
+  left: 450px;
+  font-size: 80px;
+}
+.carta::after {
+  position: absolute;
+  bottom: 50px;
+  right: 450px;
+  font-size: 80px;
+}
+
+.carta.diamond:before,
+.carta.diamond:after {
+  content: "♦";
+  color: #ff0000;
+}
+
+.carta.hearts:before,
+.carta.hearts:after {
+  content: "♥";
+  color: #ff0000;
+}
+
+.carta.clubs:before,
+.carta.clubs:after {
+  content: "♣";
+  color: #000;
+}
+
+.carta.spades:before,
+.carta.spades:after {
+  content: "♠";
+  color: #000;
+}
+
+.numero {
+  margin-top: 215px;
+  font-size: 80px;
+}
+
+/*div[class*="suit"]:before {
+  position: absolute;
+  font-size: 35px;
+  left: 5px;
+  top: 5px;
+}
+
+div[class*="suit"]:after {
+  position: absolute;
+  font-size: 35px;
+  right: 5px;
+  bottom: 5px;
+}*/
