@@ -1,0 +1,56 @@
+body {
+  background-color: darkgreen;
+}
+.carta {
+  background-color: white;
+  width: 400px;
+  height: 700px;
+  margin: auto;
+  border-radius: 50px;
+}
+
+.superior {
+  /* background-color: teal; */
+  height: 250px;
+}
+.superior .logsup {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 30px;
+  font-size: 50px;
+}
+
+.numero {
+  /* background-color: brown; */
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.numero .numCarta {
+  /* background-color: bisque; */
+  font-size: 150px;
+}
+
+.inferior {
+  /* background-color: teal; */
+  height: 250px;
+}
+
+.inferior .logoInfo{
+    position: absolute;
+    margin-top: 165px;
+    margin-left: 325px;
+    font-size: 50px;
+}
+
+.rojo{
+  color: red;
+  font-size: 30px;
+}
+
+.negro{
+  color: black;
+  font-size: 30px;
+}
+  
